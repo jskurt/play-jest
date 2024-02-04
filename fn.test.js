@@ -132,3 +132,5 @@ test('received age is 30 after 3 second', async () => {
   const age = await fn.getAge()
   expect(age).toBe(30)
 })
+
+// beforeEach, afterEach
