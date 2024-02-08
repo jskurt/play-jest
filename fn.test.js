@@ -184,3 +184,5 @@ test('0 + 4 = 4', () => {
   numTestAfter = fn.add(numTestAfter, 4)
   expect(numTestAfter).toBe(4)
 })
+
+// beforeAll, afterAll
