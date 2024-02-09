@@ -18,6 +18,24 @@ const fn = {
         res(age)
       }, 3000)
     })
+  },
+  connectUserDb: () => {
+    return new Promise((res) => {
+      setTimeout(() => {
+        res({
+          name: 'Jisung',
+          age: '30',
+          gender: 'male'
+        })
+      }, 500)
+    })
+  },
+  disconnectDb: () => {
+    return new Promise((res) => {
+      setTimeout(() => {
+        res()
+      }, 500)
+    })
   }
 }
 
